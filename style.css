@@ -204,8 +204,6 @@ span.sm-txt {
   margin: 0px auto;
 }
 
-/* Frame */
-
 .slider:before {
   background-color: #22130c;
   bottom: -2.5em;
@@ -222,8 +220,6 @@ span.sm-txt {
   z-index: -1;
 }
 
-/* Mat */
-
 .slider:after {
   background-color: #fff5e5;
   bottom: -1.5em;
@@ -239,8 +235,6 @@ span.sm-txt {
   top: -1.5em;
   z-index: -1;
 }
-
-/* Slides */
 
 .slider li {
   box-shadow: 0 -1px 0 2px hsla(0, 0%, 0%, 0.03);
@@ -302,7 +296,7 @@ span.sm-txt {
   left: 5em;
 }
 
-/* Images */
+/* ============== Slider Images =============*/
 
 .slider img {
   height: 18.75em;
