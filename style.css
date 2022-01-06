@@ -113,13 +113,12 @@ section.second-row {
 }
 .col-one {
   flex: 35%;
-  /* background-color: greenyellow; */
   height: 270px;
   border-radius: 15px;
 }
 .col-two {
   flex: 65%;
-  /* background-color: greenyellow; */
+
   height: 270px;
   border-radius: 15px;
 }
