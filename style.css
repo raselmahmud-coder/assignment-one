@@ -50,7 +50,7 @@ p.down-txt {
   padding: 20px 0px;
 }
 .for-border {
-  border-left: 3px solid yellow;
+  border-left: 5px solid #FF5959;
 }
 .wrap-two img {
   width: 70%;
@@ -235,7 +235,7 @@ span.sm-txt {
   display: none;
 }
 
-/* Navigation */
+/* ==============Navigation ================ */
 
 .slider label {
   background-color: #111;
