@@ -10,7 +10,6 @@ body {
 
 .container {
   width: 90%;
-  background: rgb(238, 237, 237);
   margin: 0px auto;
   height: auto;
 }
@@ -71,6 +70,7 @@ section.second-row {
 .mission h1 {
   color: black;
   font-size: 42px;
+  margin-top: 40px;
 }
 
 .mission span {
@@ -85,16 +85,21 @@ section.second-row {
 
 .mission-column {
   flex: 30%;
-  background-color: greenyellow;
   height: 270px;
   border-radius: 15px;
+  color: #000;
 }
 .mission-column:nth-child(1) {
   margin-right: 24px;
+  background: #EDF5F6;
 }
 .mission-column:nth-child(2) {
   margin-right: 24px;
+  background-color: #FFEEEE;
 }
+.mission-column:nth-child(3){
+  background-color: #FFF4D6;
+} 
 .row-one img {
   width: 40%;
   height: auto;
@@ -113,7 +118,10 @@ section.second-row {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 132px;
+  margin-top: 80px;
+}
+.global{
+  margin-top: 135px;
 }
 .col-one {
   flex: 35%;
@@ -129,6 +137,10 @@ section.second-row {
 .col-one img {
   width: 85%;
 }
+.community img {
+  right: -58px;
+  position: relative;
+}
 .col-two h1.dev-text {
   font-size: 35px;
   margin-top: 42px;
@@ -140,9 +152,10 @@ p.pera-dev {
 
 a.btn {
   text-decoration: none;
-  background: yellow;
+  background: #FF5959;
   padding: 12px;
   border-radius: 8px;
+  color: #fff;
 }
 section.top-slider {
   margin-top: 150px;
