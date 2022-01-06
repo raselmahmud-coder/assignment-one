@@ -17,28 +17,29 @@ body {
 
 .main-wrap {
   display: flex;
+  padding-top: 50px;
 }
 .row {
   flex: 50%;
-  padding: 10px;
   height: 300px;
 }
 .wrap-one .hd-one {
-  color: greenyellow;
-  font-size: 25px;
+  color: blank;
+  font-size: 35px;
   padding: 5px 0px 10px 5px;
 }
 .wrap-one .hd-two {
-  color: rgb(153, 126, 241);
+  color: rgb(255,173,90);
   padding: 5px 0px 10px 5px;
-  font-size: 25px;
+  font-size: 35px;
 }
 button.btn a {
   text-decoration: none;
+  color: white;
 }
 button.btn {
   padding: 10px 18px;
-  background: wheat;
+  background: #FF5959;
   border-radius: 8px;
   border: none;
 }
@@ -50,11 +51,13 @@ p.down-txt {
   padding: 20px 0px;
 }
 .for-border {
-  border-left: 5px solid #FF5959;
+  border-left: 3.5px solid #FF5959;
 }
 .wrap-two img {
   width: 70%;
   height: 300px;
+  left: 75px;
+  position: relative;
 }
 /* ==========-=======second section css =================*/
 section.second-row {
@@ -66,12 +69,12 @@ section.second-row {
 }
 
 .mission h1 {
-  color: violet;
+  color: black;
   font-size: 42px;
 }
 
 .mission span {
-  color: rgb(245 222 179);
+  color: #FFAD5A;
 }
 .mission-columns {
   display: flex;
